@@ -1,0 +1,9 @@
+server:
+  port: 61000
+
+logging:
+  level:
+    root: INFO
+    web: INFO
+    sql: INFO
+  config: classpath:logback-spring-dev.xml
